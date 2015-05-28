@@ -1,0 +1,658 @@
+/* line 36, resets-header.scss */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'proxima_nova_rgbold_italic', Arial, sans-serif;
+  color: #6e7b8d;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+/* line 45, resets-header.scss */
+.div {
+  display: inline-block;
+}
+
+/* line 49, resets-header.scss */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 55, resets-header.scss */
+.group:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 64, resets-header.scss */
+html {
+  background: url(../images/pagebackgroundimage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+/* line 74, resets-header.scss */
+body {
+  width: 64em;
+  display: block;
+  margin: 4.5em auto;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+/* line 86, resets-header.scss */
+header {
+  position: fixed;
+  top: 0;
+  width: 64em;
+  display: block;
+  clear: both;
+  background-color: white;
+  height: 6em;
+  z-index: 1000;
+  font-family: "ProximaNova-Boldit", Arial, sans-serif;
+}
+/* line 97, resets-header.scss */
+header nav {
+  width: 100%;
+  height: 4.5em;
+}
+/* line 102, resets-header.scss */
+header p {
+  position: absolute;
+  width: 5em;
+  margin-top: 4.5em;
+  text-align: center;
+}
+/* line 109, resets-header.scss */
+header .nav-item-container {
+  float: left;
+}
+/* line 112, resets-header.scss */
+header .nav-item-container .menu {
+  width: 10em;
+}
+/* line 114, resets-header.scss */
+header .nav-item-container .menu p {
+  width: 5em;
+  float: left;
+  z-index: -100;
+}
+/* line 122, resets-header.scss */
+header .logo {
+  height: auto;
+  width: auto;
+  margin-left: 10em;
+}
+/* line 127, resets-header.scss */
+header .logo img {
+  height: 4em;
+  position: absolute;
+  left: 5em;
+  top: 1em;
+}
+/* line 135, resets-header.scss */
+header .booknow {
+  width: 35em;
+  float: right;
+  margin-top: 0.5em;
+  height: 5em;
+}
+/* line 141, resets-header.scss */
+header .booknow ul {
+  list-style: none;
+  position: absolute;
+  top: 2em;
+  margin-left: 10em;
+  float: left;
+  display: inline-block;
+  width: 14em;
+}
+/* line 150, resets-header.scss */
+header .booknow ul li {
+  float: left;
+}
+/* line 155, resets-header.scss */
+header .booknow button {
+  width: 10em;
+  background-color: #6e7b8d;
+  color: #f8f9fa;
+  float: right;
+  margin: 1em 1em 0 0;
+}
+/* line 164, resets-header.scss */
+header .booknow p {
+  font-size: 1.5em;
+  float: left;
+  width: 22.7em;
+  margin-top: 2em;
+  text-align: right;
+  display: inline-block;
+}
+
+/* line 177, resets-header.scss */
+button[type="submit"] {
+  width: 10em;
+  height: 2em;
+  background-color: #6e7b8d;
+  color: #f8f9fa;
+  display: block;
+  clear: both;
+}
+
+/* line 186, resets-header.scss */
+.menu {
+  width: 5em;
+  height: 4em;
+}
+/* line 190, resets-header.scss */
+.menu p {
+  width: 5em;
+  float: left;
+  display: inline-block;
+}
+
+/* line 197, resets-header.scss */
+a:link {
+  text-decoration: none;
+  color: #6e7b8d;
+}
+
+/* line 202, resets-header.scss */
+.booknow a:hover {
+  background-color: #6e7b8d;
+  color: #f8f9fa;
+}
+
+/* line 212, resets-header.scss */
+.themenu {
+  width: 5em;
+  height: 4.5em;
+}
+/* line 216, resets-header.scss */
+.themenu img {
+  width: 5em;
+  height: 4.5em;
+  float: left;
+  display: inline-block;
+}
+
+/* line 224, resets-header.scss */
+#themenu {
+  width: 13em;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 1200ms ease-out;
+  -moz-transition: height 1200ms ease-out;
+  -o-transition: height 1200ms ease-out;
+  transition: height 1200ms ease-out;
+  position: absolute;
+  top: 6em;
+}
+/* line 232, resets-header.scss */
+#themenu ul {
+  display: block;
+  float: left;
+  background-color: white;
+}
+/* line 237, resets-header.scss */
+#themenu ul a {
+  display: block;
+}
+/* line 241, resets-header.scss */
+#themenu ul li {
+  float: left;
+  list-style: none;
+  width: 100%;
+  height: 2em;
+  display: block;
+  padding-left: 0.5em;
+  line-height: 2em;
+  color: #6e7b8d;
+  border-bottom: 1px solid #6e7b8d;
+}
+/* line 253, resets-header.scss */
+#themenu ul li:hover, #themenu ul a:hover {
+  background-color: #6e7b8d;
+  color: #f8f9fa;
+  cursor: pointer;
+}
+
+/* line 261, resets-header.scss */
+#themenu:hover {
+  height: 24.6em;
+  -webkit-transition: height 1200ms ease-out;
+  -moz-transition: height 1200ms ease-out;
+  -o-transition: height 1200ms ease-out;
+  transition: height 1200ms ease-out;
+}
+
+/* line 266, resets-header.scss */
+p:hover + #themenu, img:hover + p + #themenu {
+  height: 24.6em;
+  -webkit-transition: height 1200ms ease-out;
+  -moz-transition: height 1200ms ease-out;
+  -o-transition: height 1200ms ease-out;
+  transition: height 1200ms ease-out;
+}
+
+/* line 272, resets-header.scss */
+button {
+  width: 20em;
+  height: 2em;
+  background-color: #6e7b8d;
+  color: #f8f9fa;
+}
+
+/* line 279, resets-header.scss */
+footer {
+  width: 100%;
+  position: static;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  clear: both;
+  height: 16em;
+  background-color: #ffffff;
+}
+/* line 290, resets-header.scss */
+footer div {
+  float: left;
+  width: 32em;
+  display: block;
+  height: 16em;
+}
+/* line 296, resets-header.scss */
+footer div ul {
+  list-style: none;
+  width: 30em;
+  height: 8.5em;
+  margin-left: 1em;
+  background-color: #129fcf;
+}
+/* line 303, resets-header.scss */
+footer div ul li {
+  float: left;
+  width: 10em;
+  height: 2em;
+  text-align: center;
+  background-color: #129fcf;
+}
+/* line 310, resets-header.scss */
+footer div ul li a {
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 318, resets-header.scss */
+footer div ul li a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 324, resets-header.scss */
+footer div ul li:hover {
+  background-color: #6e7b8d;
+  color: #ffffff;
+}
+/* line 331, resets-header.scss */
+footer .menu {
+  width: 32em;
+  height: 14em;
+  padding-top: 2em;
+  background-color: #129fcf;
+}
+/* line 337, resets-header.scss */
+footer .menu div:last-of-type {
+  height: 3.5em;
+  text-align: center;
+  padding-top: 1em;
+  background-color: #129fcf;
+}
+/* line 343, resets-header.scss */
+footer .menu div:last-of-type img {
+  height: 3em;
+  margin: 0 0.5em;
+}
+/* line 348, resets-header.scss */
+footer .menu div:last-of-type img li {
+  color: #ffffff;
+}
+/* line 352, resets-header.scss */
+footer .menu div:last-of-type img a {
+  height: 100%;
+  width: 100%;
+  display: block;
+  color: #ffffff;
+}
+/* line 364, resets-header.scss */
+footer .logo {
+  text-align: center;
+}
+/* line 367, resets-header.scss */
+footer .logo img {
+  height: 4em;
+  margin-top: 5em;
+}
+
+/* line 29, form.scss */
+fieldset input + span {
+  font-size: 0.8em;
+  width: 10em;
+  margin-left: 0.5em;
+  float: right;
+  clear: right;
+  padding: 1em 0;
+  color: #6e7b8d;
+}
+
+/* line 39, form.scss */
+fieldset .success {
+  color: #6e7b8d;
+  float: right;
+  padding: 0;
+}
+
+/* line 45, form.scss */
+fieldset .fail {
+  color: #6e7b8d;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 57, form.scss */
+nav + h1 {
+  color: #f8f9fa;
+  width: 100%;
+  background-color: #129fcf;
+  text-align: center;
+  height: 1em;
+  padding: 0.5em 0;
+  margin-top: 0.75em;
+}
+
+/* line 67, form.scss */
+nav form {
+  height: 0;
+}
+
+/* line 71, form.scss */
+form {
+  font-family: 'proxima_novasemibold_italic', Arial, sans-serif;
+  font-size: 1.5em;
+  width: 100%;
+  background-color: #ffffff;
+}
+/* line 77, form.scss */
+form fieldset {
+  display: block;
+  padding-bottom: 1em;
+  height: 100%;
+  clear: both;
+  padding-left: 0.5em;
+  width: 42.1em;
+  border: none;
+  background-color: #ffffff;
+}
+/* line 87, form.scss */
+form fieldset legend {
+  line-height: 1em;
+  font-weight: 500;
+  margin: 1em 0 1em 0;
+  display: block;
+  clear: both;
+  padding: 0.5em;
+  float: left;
+  background-color: #6e7b8d;
+  color: #ffffff;
+}
+/* line 99, form.scss */
+form fieldset p {
+  float: left;
+  display: block;
+  clear: both;
+  width: 28em;
+  padding-bottom: 1em;
+}
+/* line 107, form.scss */
+form fieldset div {
+  display: block;
+  clear: both;
+  width: 100%;
+}
+/* line 113, form.scss */
+form fieldset label {
+  display: block;
+  width: 15.5em;
+  float: left;
+  text-align: right;
+  clear: left;
+  margin-right: 0.5em;
+  padding-bottom: 0.5em;
+}
+/* line 124, form.scss */
+form fieldset input[type="text"] {
+  float: left;
+  height: 1em;
+  padding-left: 0.5em;
+  font-size: 1em;
+  color: #6e7b8d;
+}
+/* line 132, form.scss */
+form fieldset input[name="date"] {
+  width: 7em;
+}
+/* line 136, form.scss */
+form fieldset input[name="time"] {
+  width: 5em;
+}
+/* line 140, form.scss */
+form fieldset input[name="passenger"] {
+  width: 1em;
+}
+/* line 144, form.scss */
+form fieldset input[name="duration"] {
+  width: 2em;
+}
+/* line 148, form.scss */
+form fieldset input[name="charter-trip-passenger"] {
+  width: 2em;
+}
+/* line 152, form.scss */
+form fieldset textarea {
+  float: left;
+}
+
+/* line 162, form.scss */
+.radio-buttons input[type="radio"] {
+  display: none;
+}
+/* line 166, form.scss */
+.radio-buttons label {
+  cursor: pointer;
+  text-align: left;
+}
+/* line 171, form.scss */
+.radio-buttons input[type="radio"] + label:before {
+  border: 1px solid #6e7b8d;
+  content: "\00a0";
+  display: inline-block;
+  height: 1em;
+  margin: 0 .25em 0 0;
+  padding: 0;
+  vertical-align: top;
+  width: 1em;
+  background-color: #fff;
+}
+/* line 183, form.scss */
+.radio-buttons input[type="radio"]:checked + label:before {
+  background: #fff;
+  color: #666;
+  content: "\2713";
+  text-align: center;
+}
+/* line 190, form.scss */
+.radio-buttons input[type="radio"]:checked + label:after {
+  font-weight: bold;
+}
+
+/* line 196, form.scss */
+.list p {
+  width: 15.5em;
+  clear: left;
+  position: absolute;
+  text-align: right;
+  height: auto;
+  padding: 0;
+  margin-left: 0;
+  padding-bottom: 0.5em;
+  color: #6e7b8d;
+}
+/* line 208, form.scss */
+.list label {
+  padding-left: 0.5em;
+  margin-left: 15.5em;
+  width: auto;
+  padding-bottom: 0.5em;
+}
+
+/* line 216, form.scss */
+.titles {
+  width: auto;
+  margin-left: 8.3em;
+}
+/* line 221, form.scss */
+.titles label {
+  padding-left: 0.5em;
+  width: 3.2em;
+  float: left;
+  clear: none;
+}
+/* line 227, form.scss */
+.titles label:nth-of-type(3) {
+  width: 5.6em;
+}
+
+/* line 238, form.scss */
+.trips-drop-down div {
+  width: 13em;
+  height: 2em;
+  overflow: hidden;
+  border: 1px solid #6e7b8d;
+  -webkit-transition: height 600ms ease-out;
+  -moz-transition: height 600ms ease-out;
+  -o-transition: height 600ms ease-out;
+  transition: height 600ms ease-out;
+}
+/* line 245, form.scss */
+.trips-drop-down div input[type="text"] {
+  display: inline;
+  float: left;
+  width: 10.5em;
+  padding-left: 0.5em;
+  border: none;
+  font-size: 1em;
+  height: 2em;
+  line-height: 2em;
+  color: #6e7b8d;
+}
+/* line 257, form.scss */
+.trips-drop-down div img {
+  float: right;
+  width: 2em;
+}
+/* line 262, form.scss */
+.trips-drop-down div ul {
+  display: block;
+  float: left;
+}
+/* line 266, form.scss */
+.trips-drop-down div ul li {
+  float: left;
+  list-style: none;
+  width: 100%;
+  height: 2em;
+  display: block;
+  padding-left: 0.5em;
+  line-height: 2em;
+  border-bottom: 1px solid #6e7b8d;
+  background-color: white;
+  color: #6e7b8d;
+}
+/* line 279, form.scss */
+.trips-drop-down div ul li:first-of-type {
+  border-top: 1px solid #6e7b8d;
+}
+/* line 283, form.scss */
+.trips-drop-down div ul li:hover {
+  background-color: #6e7b8d;
+  color: white;
+  cursor: pointer;
+}
+/* line 291, form.scss */
+.trips-drop-down div:hover {
+  height: 16em;
+  -webkit-transition: height 600ms ease-in;
+  -moz-transition: height 600ms ease-in;
+  -o-transition: height 600ms ease-in;
+  transition: height 600ms ease-in;
+}
+
+/* line 297, form.scss */
+.trip-options-label {
+  background-color: #6e7b8d;
+  color: #FFFFFF;
+  width: auto;
+  display: block;
+  float: left;
+  margin-bottom: 1em;
+}
+
+/* line 306, form.scss */
+.trips-drop-down:after {
+  content: "rakesh";
+  visibility: hidden;
+}
+
+/* line 311, form.scss */
+form > div.visible, form > div:first-of-type, form > div:nth-of-type(2) {
+  display: block;
+}
+
+/* line 315, form.scss */
+form > div:first-of-type {
+  margin-top: 4em;
+}
+
+/* line 319, form.scss */
+form > div {
+  display: none;
+}
+
+/* line 323, form.scss */
+#offset {
+  display: block;
+  height: 8.4em;
+  background-color: #ffffff;
+  padding-bottom: 2em;
+}
+/* line 329, form.scss */
+#offset h1 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #129fcf;
+  padding: 1.5em 0;
+}

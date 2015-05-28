@@ -1,0 +1,1000 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fi",
+				"first-of-type"
+			],
+			[
+				"fo",
+				"forwardbutton"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"cl",
+				"classList"
+			],
+			[
+				"cur",
+				"curObj"
+			],
+			[
+				"cu",
+				"curObj"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"MAR",
+				"margin-top"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"q",
+				"querySelector"
+			],
+			[
+				"qur",
+				"querySelector"
+			],
+			[
+				"se",
+				"setAttribute"
+			],
+			[
+				"if",
+				"iframe"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"arra",
+				"Array"
+			],
+			[
+				"fr",
+				"forwardbutton"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"image",
+				"imageframe"
+			],
+			[
+				"x",
+				"x-1"
+			],
+			[
+				"Cu",
+				"currObj"
+			],
+			[
+				"forward",
+				"forwardbutton"
+			],
+			[
+				"for",
+				"forwards"
+			],
+			[
+				"images",
+				"imagesource"
+			],
+			[
+				"img",
+				"imageframe"
+			],
+			[
+				"quer",
+				"querySelector"
+			],
+			[
+				"ad",
+				"addEventListener"
+			],
+			[
+				"new",
+				"newimage"
+			],
+			[
+				"im",
+				"imagesthumbs"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"ce",
+				"crewprofilesarray"
+			],
+			[
+				"Cl",
+				"classList"
+			],
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"curre",
+				"current"
+			],
+			[
+				"crew",
+				"crewprofilesarray"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"cre",
+				"crewprofilesarray"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"cr",
+				"crewprofilesarray"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"op",
+				"op	opacity"
+			],
+			[
+				"get",
+				"getready"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"ev",
+				"addEventListener"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"index",
+				"indexpage"
+			],
+			[
+				"st",
+				"stuff"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"div",
+				"divselector"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"succ",
+				"success"
+			],
+			[
+				"fie",
+				"fieldsetArray"
+			],
+			[
+				"fe",
+				"feildsetArray"
+			],
+			[
+				"the",
+				"thetripname"
+			],
+			[
+				"que",
+				"querySelector"
+			],
+			[
+				"li",
+				"liArray"
+			],
+			[
+				"s",
+				"success"
+			],
+			[
+				"fail",
+				"fail_numbers_only_msg"
+			],
+			[
+				"all",
+				"allthedates"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"suc",
+				"success"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bg-",
+				"background-color"
+			],
+			[
+				"Z",
+				"z-index"
+			],
+			[
+				"f",
+				"fixed"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"bg",
+				"bg-color-scrolling"
+			],
+			[
+				"but",
+				"button-color"
+			],
+			[
+				"hea",
+				"header-color-text"
+			],
+			[
+				"me",
+				"metal"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"lab",
+				"labelwidth"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"l",
+				"labelwidth"
+			],
+			[
+				"fai",
+				"failmsg"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"a",
+				"ae	addEventListener"
+			],
+			[
+				"succe",
+				"successmsg"
+			],
+			[
+				"full",
+				"fullName"
+			],
+			[
+				"fu",
+				"fullName"
+			],
+			[
+				"la",
+				"labelwidth"
+			],
+			[
+				"m",
+				"moveright"
+			],
+			[
+				"mya",
+				"myarray"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"C",
+				"className"
+			],
+			[
+				"left",
+				"margin-left"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"ac",
+				"active"
+			],
+			[
+				"curr",
+				"currentimage"
+			],
+			[
+				"ind",
+				"indexOf"
+			],
+			[
+				"H",
+				"height"
+			],
+			[
+				"ima",
+				"imagesarray"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"bu",
+				"buttonsarray"
+			],
+			[
+				"button",
+				"buttonsarray"
+			],
+			[
+				"my",
+				"myNodeList"
+			],
+			[
+				"ra",
+				"rakesh"
+			],
+			[
+				"n",
+				"nowrap"
+			],
+			[
+				"add",
+				"addclass"
+			],
+			[
+				"Op",
+				"opacity"
+			],
+			[
+				"first",
+				"firstElementChild"
+			],
+			[
+				"animal",
+				"animaldata"
+			],
+			[
+				"an",
+				"animaldata"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/resets-header.scss",
+			"settings":
+			{
+				"buffer_size": 5576,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/rakeshmistry/Desktop/flytothelimit/success.html",
+			"settings":
+			{
+				"buffer_size": 3566,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/success.scss",
+			"settings":
+			{
+				"buffer_size": 970,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/form.scss",
+			"settings":
+			{
+				"buffer_size": 5413,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 247.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: @for"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"be",
+				"SassBeautify: Convert from CSS to current type"
+			],
+			[
+				"s",
+				"SassBeautify"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/rakeshmistry/Desktop/flytothelimit/index.html",
+		"/Users/rakeshmistry/Desktop/flytothelimit/assets/css/indexpage.scss",
+		"/Users/rakeshmistry/Desktop/flytothelimit/form.html",
+		"/Users/rakeshmistry/Desktop/flytothelimit/assets/css/form.scss",
+		"/Users/rakeshmistry/Desktop/flytothelimit/assets/css/form.css",
+		"/Users/rakeshmistry/Desktop/flytothelimit/assets/css/success.scss",
+		"/Users/rakeshmistry/Desktop/flytothelimit/assets/js/form.js",
+		"/Users/rakeshmistry/Desktop/flytothelimit/success.html",
+		"/Users/rakeshmistry/Desktop/flytothelimit/assets/js/indexpage.js",
+		"/Users/rakeshmistry/Desktop/flytothelimit/assets/css/resets-header.scss",
+		"/Users/rakeshmistry/Desktop/assignment 2/index2.html",
+		"/Users/rakeshmistry/Desktop/flytothelimit/testpages/slider/slideimage.js",
+		"/Users/rakeshmistry/Desktop/flytothelimit/assets/css/indexpage.css",
+		"/Users/rakeshmistry/Desktop/flytothelimit/assets/css/normalize.css",
+		"/Users/rakeshmistry/Desktop/flytothelimit/assets/css/success.css",
+		"/Users/rakeshmistry/Desktop/flytothelimit/testpages/slideimage.js",
+		"/Users/rakeshmistry/Desktop/flytothelimit/testpages/Gallery.html",
+		"/Users/rakeshmistry/Desktop/flytothelimit/slideimage.js",
+		"/Users/rakeshmistry/Desktop/flytothelimit/Test pages/Gallery.html",
+		"/Users/rakeshmistry/Desktop/Javascript/Forms/submit/validator-rakesh.js",
+		"/Users/rakeshmistry/Desktop/Javascript/Forms/submit/Rakeshform1.html",
+		"/Users/rakeshmistry/Desktop/flytothelimit/form.js",
+		"/Users/rakeshmistry/Desktop/flytothelimit/assets/fonts/stylesheet.css",
+		"/Users/rakeshmistry/Desktop/flytothelimit/test.html",
+		"/Users/rakeshmistry/Desktop/flytothelimit/assets/css/index.scss",
+		"/Users/rakeshmistry/Desktop/flytothelimit/Gallery.html",
+		"/Users/rakeshmistry/Desktop/Javascript/Forms/myformvalidation/index.html",
+		"/Users/rakeshmistry/Desktop/Javascript/Forms/myformvalidation/assets/css/styles.scss",
+		"/Volumes/RAKESHUSB/wireframes.pdf",
+		"/Users/rakeshmistry/Desktop/flytothelimit/Gallery2.html",
+		"/Users/rakeshmistry/Desktop/floats.html",
+		"/Users/rakeshmistry/Desktop/Imagegallery 2/img/backandforth.js",
+		"/Users/rakeshmistry/Desktop/Imagegallery/img/backandforth.js",
+		"/Users/rakeshmistry/Desktop/myGenius/hover/img/backandforth.js",
+		"/Users/rakeshmistry/Desktop/myGenius/inputwithremoveimage/inputwithremoveimage.html",
+		"/Users/rakeshmistry/Desktop/Fly to the Limit/Sky",
+		"/Users/rakeshmistry/Desktop/Forms/myformvalidation/index.html",
+		"/Users/rakeshmistry/Desktop/Forms/myformvalidation/assets/css/styles.scss",
+		"/Users/rakeshmistry/Desktop/Forms/myformvalidation/assets/js/formvalidation.js",
+		"/Users/rakeshmistry/Desktop/Forms/myformvalidation/index2.html",
+		"/Users/rakeshmistry/Desktop/Forms/myformvalidation/assets/css/styles2.scss",
+		"/Users/rakeshmistry/Desktop/Forms/myformvalidation/assets/css/styles2.css",
+		"/Users/rakeshmistry/Desktop/Forms/myformvalidation/assets/css/styles.css",
+		"/Users/rakeshmistry/Desktop/Forms/inputwithremoveimage/inputwithremoveimage.html",
+		"/Users/rakeshmistry/Library/Application Support/Sublime Text 2/Packages/User/section.sublime-snippet",
+		"/Users/rakeshmistry/Library/Application Support/Sublime Text 2/Packages/User/hello.sublime-snippet",
+		"/Users/rakeshmistry/Desktop/formvalidation/index.html",
+		"/Users/rakeshmistry/Desktop/formvalidation/assets/css/styles.scss",
+		"/Users/rakeshmistry/Desktop/formvalidation/assets/css/styles.css",
+		"/Users/rakeshmistry/Desktop/formvalidation/test.html",
+		"/Users/rakeshmistry/Desktop/formvalidation/Form.html",
+		"/Users/rakeshmistry/Desktop/Forms/input.html",
+		"/Users/rakeshmistry/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/rakeshmistry/Desktop/untitled.html",
+		"/Users/rakeshmistry/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/rakeshmistry/Desktop/Forms/input2.html",
+		"/Users/rakeshmistry/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/Users/rakeshmistry/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/rakeshmistry/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/rakeshmistry/Library/Application Support/Sublime Text 2/Packages/User/Emmet.sublime-settings",
+		"/Users/rakeshmistry/Google Drive/Javascript/Forms/input.html",
+		"/Users/rakeshmistry/Desktop/rakesh.html",
+		"/Users/rakeshmistry/Google Drive/Javascript/Forms/Formexample.html",
+		"/Users/rakeshmistry/Google Drive/queryselectorrotate2.html",
+		"/Users/rakeshmistry/Desktop/myform.html",
+		"/Users/rakeshmistry/Desktop/Images/queryselectorrotate.html",
+		"/Users/rakeshmistry/Desktop/form.html",
+		"/Users/rakeshmistry/Desktop/game.html",
+		"/Users/rakeshmistry/Desktop/trial/untitled.scss.haml",
+		"/Users/rakeshmistry/Desktop/trial/untitled.scss",
+		"/Users/rakeshmistry/Desktop/trial/untitled.css",
+		"/Users/rakeshmistry/Desktop/trial/trial.scss"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"stuff",
+			"</button>",
+			"button",
+			"<form>",
+			"form",
+			"submitbutton",
+			"name=\"charter-trip-passenger\"",
+			"duration",
+			"&",
+			"id=\"\"",
+			"input type=\"text\" name=",
+			"name",
+			"id=",
+			"		// margin-top: 7em;",
+			"innerText",
+			"id=\"the-trips\"",
+			"whit",
+			"font",
+			"var imageframe = document.querySelector(\"#lge-image-display img\");\n\n// console.log(bigimages.indexOf(imageframe.src));\n\n\n// // function disable(currObj){\n// // 	if(x===0){\n// // 		backwards.disabled=true;\n// // 		forwards.disabled=false;\n// // 	}\n// // 	else if(x===imagesthumbs.length){\n// // 		forwards.disabled=true;\n// // 		backwards.disabled=false;\n\n// // 	}else{\n// // 		return false;\n// // 	}\n// // }\n\n\n\n// console.log(backwards);\n// console.log(forwards);\n",
+			"profile",
+			"h1",
+			"discuss",
+			"<img src=\"assets/images/threelines1.png\"",
+			"button",
+			"border",
+			"value=\"1\"",
+			"name=\"passenger\"",
+			"passenger",
+			"passengers",
+			"11.6",
+			"hide",
+			";\n",
+			"block",
+			"overflow: hidden;",
+			"z index",
+			"border",
+			";\n",
+			"white",
+			"visible",
+			"span",
+			"name=\"passenger\"",
+			"name=\"passengers\"",
+			"data-number",
+			"data",
+			"How many passengers?",
+			"passengers",
+			"date",
+			"span",
+			"color",
+			"18em",
+			";\n",
+			"h1",
+			"padding",
+			"15.5",
+			"label",
+			"15",
+			"text-align",
+			"$a",
+			"width",
+			"center",
+			"duration",
+			"time",
+			"date",
+			"duration",
+			"time",
+			"id",
+			"passenger",
+			"passengers",
+			"value",
+			"23",
+			";\n",
+			"ease-in",
+			"in",
+			"2",
+			"ease",
+			"3s",
+			"1s",
+			"\";\n",
+			"\");\n",
+			"\";",
+			"30em",
+			"image01",
+			"fight",
+			"f",
+			"$greenfont",
+			"25",
+			"html",
+			"body",
+			";\n",
+			"	",
+			"50em",
+			"    ",
+			"		",
+			"	",
+			"tabs",
+			"5em",
+			"			});",
+			"').",
+			")",
+			"this",
+			"t",
+			"(",
+			")",
+			"')\"/>",
+			"makeLarge",
+			"Images"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"innerHTML",
+			"to discuss",
+			"",
+			"name=\"passenger\" value=\"1\"",
+			"$text-color"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/resets-header.scss",
+					"settings":
+					{
+						"buffer_size": 5576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1066,
+								1035
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 688.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/rakeshmistry/Desktop/flytothelimit/success.html",
+					"settings":
+					{
+						"buffer_size": 3566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1691,
+								1691
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1396.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/success.scss",
+					"settings":
+					{
+						"buffer_size": 970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								855,
+								855
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 626.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/form.scss",
+					"settings":
+					{
+						"buffer_size": 5413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5255,
+								5255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 7992.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true
+}

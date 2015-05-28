@@ -1,0 +1,513 @@
+//**********************************************************//
+	//imported style sheets
+//**********************************************************//
+
+@import "compass/css3";
+@import 'resets-header';
+
+//**********************************************************//
+	//variables
+//**********************************************************//
+
+//Colours
+$metal:#6E7B8D;
+$blue:#129FCF;
+$header-color:#FFFFFF;
+$header-color-text:#6E7B8D;
+$bg-color-scrolling: #129FCF;
+$button-color:#6E7B8D;
+$text-color: #FFFFFF;
+
+//**********************************************************//
+	//Styles
+//**********************************************************//
+*{
+	// outline: none;
+}
+
+.container{
+	background-color: #ffffff;
+}
+
+.offset{
+	display: block;
+	position: relative;	
+	top: -6.7em;
+	visibility: hidden;
+}
+
+#scenicadventure-info-top.offset{
+	top: -27em;
+}
+
+.container-video, .container-scrolling-bg, .container-fixed-bg{
+	height: 40em;
+	text-align: center;
+	padding-top: 1px;
+
+	p{
+		color:$blue;
+		width: 20em;
+		margin: 2em auto;
+		margin-top: 2em;
+		height: auto;
+	}
+
+	button{
+		margin: 0 auto;
+		cursor: pointer;
+	}
+}
+
+.container-fixed-bg, .container-video{
+	max-width: 64em;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+
+.fixed-bg-1{
+	background-image: url('../images/background-image-1.jpg');
+}
+
+.fixed-bg-2{
+	background-image: url('../images/background-image-2.jpg');
+}
+
+.fixed-bg-3{
+	background-image: url('../images/background-image-3.jpg');
+}
+
+.fixed-bg-4{
+	background-image: url('../images/background-image-4.jpg');
+}
+
+.fixed-bg-5{
+	background-image: url('../images/background-image-5.jpg');
+}
+
+
+.container-video{
+	background-image: url('../images/background-image-0.jpg');
+	height: 30em;
+
+	h1{
+	display: block;
+	color:$blue;
+	width: auto;
+	margin: 2.5em auto 0 auto;
+	font-size: 3em;
+	font-weight: 900;
+	background-color: #ffffff;
+	opacity: 0.8;
+	}
+
+	img{
+		cursor: pointer;
+		margin-top: 0.5em;
+	}
+}
+
+.container-scrolling-bg, about-us{
+	background-color: $text-color;
+	height: 15em;
+
+	h1{
+		float: left;
+		left: 0;
+		margin-top: -1em;
+		width: auto;
+		text-align: left;
+		color:$text-color;
+		margin-left: 0.2em;
+	}
+}
+
+.scrolling-bg-1{
+
+	height: 16em;
+	padding-bottom: 2em;
+
+	h1{
+		color:$text-color;
+		width: 10em;
+		margin-left: 11em;
+		margin-top: 1em;
+		text-align: center;
+		background-color: $blue;
+	
+	}
+
+	p{
+		margin-top: 5em;
+		color: $blue;
+	}
+}
+
+.scrolling-bg-3{
+	height: 100%;
+
+	h1{
+		margin-top: -1.6em;
+	}
+}
+
+.standard-flight-options{
+	height: 100%;
+	width: 100%;
+	padding-bottom: 1em;
+	display: block;
+	position: relative;
+
+	div{
+		float: left;
+		width: 15.9em;
+		border-right: 2px solid $text-color;
+	}
+
+	div:first-of-type{
+		padding-left: 0.5em;
+		width: 15.4em;
+	}
+
+	div:last-of-type{
+		border: none;
+		padding-right: 0.5em;
+		width: 15.4em;
+	}
+
+	img{
+		width: 10em;
+		margin-bottom: 0.5em;
+		padding-top: 1em;
+	}
+
+	h2{
+		height: 2em;
+		color: $metal;
+		margin-bottom: 0.5em;
+	}
+
+	p{
+		width: auto;
+		padding: 0.5em 0.5em;
+		margin: 0 auto;
+		color: $blue;
+		margin-bottom: 0.5em;
+		
+	}
+
+}
+
+
+.the-crew, .about-us, .gallery, .contact-us{
+	background-color: $text-color;
+
+	h1{
+		color: $metal;
+		padding-left: 0.2em;
+		background-color: #ffffff;
+		text-align: center;
+	}
+
+	p{
+		color: $blue;
+		width: 20em;
+		margin: 0 auto;
+	}
+}
+
+.the-crew{
+	background-color: $blue;
+	padding-bottom: 1.2em;
+
+	h1{
+		margin-top: -1em;
+		background-color: $blue;
+		color: #ffffff;
+	}
+}
+
+.about-us {
+	height: 20em;
+
+	h1{
+		padding-left: 0.2em;
+	}
+
+	p{
+		color:$blue;
+		float: left;
+		width: 30em;
+		margin: 3em 1em 0em 2em;
+		text-align: justify;
+	}
+
+	img{
+		margin-top: 1em;
+		margin-right: 10em;
+		float: right;
+	}
+}
+
+.gallery{
+
+	.large-display{
+
+		margin: 0;
+		padding: 0;
+
+		img{
+			width: 100%;
+			border: none;
+			display: block;
+		}
+	}
+
+	.thumbnails{
+		text-align: center;
+		margin: 0 auto;
+		background-color: #ffffff;
+
+		img{
+			margin-bottom: 0.5em;
+			cursor: pointer;
+		}
+
+		img:first-of-type{
+			padding-left: 1em;
+		}
+
+		img:last-of-type{
+			padding-right: 1em;
+		}
+
+		button{
+			position: absolute;
+			width: 2em;
+			margin-top: 0.6em;
+			background-color: $metal;
+  			 -moz-border-radius: 5px;
+   			 -webkit-border-radius: 5px;
+    		border-radius:6px;
+    		color: #ffffff;
+    		font-size: 20px;
+    		text-decoration: none;
+    		cursor: pointer;
+    		border:none;
+    		opacity: 0;
+		}
+
+		button:hover{
+			opacity: 1;
+		}
+
+		button:first-of-type{
+			margin-left: -2em;
+			
+		}
+	}
+}
+
+.thumbnails:hover button{
+	opacity: 0.8;
+}
+
+.contact-us{	
+	background-image: url(../images/staticmap.png);
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 35em;
+}
+
+.contact-us{
+	
+	height: 38em;
+	margin-top: 1em;
+
+	h2{
+		color: #ffffff;
+	}
+
+	form{
+		width: 18.3em;
+		background-color: $blue;
+		height: 33.5em;
+		margin-top: 1em;
+		margin-left: 2em;
+		color: #ffffff;
+		opacity: 0.9;
+		padding: 0.5em;
+		font-size: 1em;
+
+		ul{
+			list-style: none;
+			font-size: 1em;
+			color: #ffffff;
+
+			li{
+				color: #ffffff;
+			}
+		}
+
+		label{
+			float: left;
+			clear: both;
+			margin-top: 0.5em;
+			color:#ffffff;
+		}
+		input{
+			float: left;
+			clear: both;
+			width: 18em;
+			height: 2em;
+			display: block;
+			color: black;
+			padding: 0;
+			margin: 0;
+		}
+
+		textarea{
+			color: black;
+			width: 18em;
+			padding: 0;
+			margin: 0;
+		}
+
+
+		button{
+			float: left;
+			clear: both;
+			margin: 0 auto;
+			width: 4em;
+		}
+	}
+}
+
+//**********************************************************//
+	//Styles for Javascript
+//**********************************************************//
+
+.the-crew{
+
+	.buttons{
+		height: 22em;
+		width: 22em;
+		z-index: 500;
+		position: absolute;
+		background-color: $blue;
+		margin-top: 3em;
+
+		p{
+		background-image: url(../images/arrows.png);
+		background-repeat: no-repeat;
+		height: 3.9em;
+		width: 4em;
+		position: absolute;
+		z-index: 200;
+		left: 12em;
+		margin-top: 8em;
+		opacity: 1;
+
+		}
+		p.hide{
+			opacity: 0;
+		}
+	}
+}
+
+.buttons:last-of-type{
+	margin-left: 42em;
+	margin-top: -20.4em;
+	width: 22em;
+	background-color: #ffffff;
+	position: relative;
+	background-color: $blue;
+	
+	p{
+	background-position: -4.5em;
+	left: 6em;
+	margin-top: -12.5em;
+	}
+}
+
+//**********************************************************//
+	//Crew Gallery  *DO NOT TOUCH - lines 352-417
+//**********************************************************//
+
+.active, .crew, .before, .after, .previousprofile{
+	width: 20em;
+	height: 20em;
+	text-align: center;
+	float: left;
+	margin: 0;
+	-webkit-transition: margin-left 2s ease-out;
+	-moz-transition: margin-left 2s ease-out;
+	-ms-transition: margin-left 2s ease-out;
+	-o-transition: margin-left 2s ease-out;
+	transition: margin-left 2s ease-out;
+	display: inline-block;
+
+	p{
+   		width: auto;
+		color: #ffffff;
+		position: relative;
+		width: 100%;
+		display: block;
+		clear: both;
+   	}
+
+   	h2{
+	color: #ffffff;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+
+	}
+
+	img{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.inactive{
+	display: none;
+}
+
+//move
+.move {
+	margin-left: -50%;
+    -webkit-transition: margin-left 2s ease-out;
+	-moz-transition: margin-left 2s ease-out;
+	-ms-transition: margin-left 2s ease-out;
+	-o-transition: margin-left 2s ease-out;
+	transition: margin-left 2s ease-out;
+}
+
+.previousprofile{
+	margin-left: -50%;
+	display: inline-block;
+	-webkit-transition: margin-left 2s ease-out;
+	-moz-transition: margin-left 2s ease-out;
+	-ms-transition: margin-left 2s ease-out;
+	-o-transition: margin-left 2s ease-out;
+	transition: margin-left 2s ease-out;
+}
+
+
+.profilebox{
+	width: 40em;
+	height: 20em;
+	margin-left: 22em;
+	margin-top: 1em;
+	background-color: $blue;
+}
+
+//**********************************************************//
+	// End of Crew Gallery
+//**********************************************************//
+

@@ -1,0 +1,829 @@
+/* line 36, resets-header.scss */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'proxima_nova_rgbold_italic', Arial, sans-serif;
+  color: #6e7b8d;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+/* line 45, resets-header.scss */
+.div {
+  display: inline-block;
+}
+
+/* line 49, resets-header.scss */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 55, resets-header.scss */
+.group:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 64, resets-header.scss */
+html {
+  background: url(../images/pagebackgroundimage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+/* line 74, resets-header.scss */
+body {
+  width: 64em;
+  display: block;
+  margin: 4.5em auto;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+/* line 86, resets-header.scss */
+header {
+  position: fixed;
+  top: 0;
+  width: 64em;
+  display: block;
+  clear: both;
+  background-color: white;
+  height: 6em;
+  z-index: 1000;
+  font-family: "ProximaNova-Boldit", Arial, sans-serif;
+}
+/* line 97, resets-header.scss */
+header nav {
+  width: 100%;
+  height: 4.5em;
+}
+/* line 102, resets-header.scss */
+header p {
+  position: absolute;
+  width: 5em;
+  margin-top: 4.5em;
+  text-align: center;
+}
+/* line 109, resets-header.scss */
+header .nav-item-container {
+  float: left;
+}
+/* line 112, resets-header.scss */
+header .nav-item-container .menu {
+  width: 10em;
+}
+/* line 114, resets-header.scss */
+header .nav-item-container .menu p {
+  width: 5em;
+  float: left;
+  z-index: -100;
+}
+/* line 122, resets-header.scss */
+header .logo {
+  height: auto;
+  width: auto;
+  margin-left: 10em;
+}
+/* line 127, resets-header.scss */
+header .logo img {
+  height: 4em;
+  position: absolute;
+  left: 5em;
+  top: 1em;
+}
+/* line 135, resets-header.scss */
+header .booknow {
+  width: 35em;
+  float: right;
+  margin-top: 0.5em;
+  height: 5em;
+}
+/* line 141, resets-header.scss */
+header .booknow ul {
+  list-style: none;
+  position: absolute;
+  top: 2em;
+  margin-left: 10em;
+  float: left;
+  display: inline-block;
+  width: 14em;
+}
+/* line 150, resets-header.scss */
+header .booknow ul li {
+  float: left;
+}
+/* line 155, resets-header.scss */
+header .booknow button {
+  width: 10em;
+  background-color: #6e7b8d;
+  color: #f8f9fa;
+  float: right;
+  margin: 1em 1em 0 0;
+}
+/* line 164, resets-header.scss */
+header .booknow p {
+  font-size: 1.5em;
+  float: left;
+  width: 22.7em;
+  margin-top: 2em;
+  text-align: right;
+  display: inline-block;
+}
+
+/* line 177, resets-header.scss */
+button[type="submit"] {
+  width: 10em;
+  height: 2em;
+  background-color: #6e7b8d;
+  color: #f8f9fa;
+  display: block;
+  clear: both;
+}
+
+/* line 186, resets-header.scss */
+.menu {
+  width: 5em;
+  height: 4em;
+}
+/* line 190, resets-header.scss */
+.menu p {
+  width: 5em;
+  float: left;
+  display: inline-block;
+}
+
+/* line 197, resets-header.scss */
+a:link {
+  text-decoration: none;
+  color: #6e7b8d;
+}
+
+/* line 202, resets-header.scss */
+.booknow a:hover {
+  background-color: #6e7b8d;
+  color: #f8f9fa;
+}
+
+/* line 212, resets-header.scss */
+.themenu {
+  width: 5em;
+  height: 4.5em;
+}
+/* line 216, resets-header.scss */
+.themenu img {
+  width: 5em;
+  height: 4.5em;
+  float: left;
+  display: inline-block;
+}
+
+/* line 224, resets-header.scss */
+#themenu {
+  width: 13em;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 1200ms ease-out;
+  -moz-transition: height 1200ms ease-out;
+  -o-transition: height 1200ms ease-out;
+  transition: height 1200ms ease-out;
+  position: absolute;
+  top: 6em;
+}
+/* line 232, resets-header.scss */
+#themenu ul {
+  display: block;
+  float: left;
+  background-color: white;
+}
+/* line 237, resets-header.scss */
+#themenu ul a {
+  display: block;
+}
+/* line 241, resets-header.scss */
+#themenu ul li {
+  float: left;
+  list-style: none;
+  width: 100%;
+  height: 2em;
+  display: block;
+  padding-left: 0.5em;
+  line-height: 2em;
+  color: #6e7b8d;
+  border-bottom: 1px solid #6e7b8d;
+}
+/* line 253, resets-header.scss */
+#themenu ul li:hover, #themenu ul a:hover {
+  background-color: #6e7b8d;
+  color: #f8f9fa;
+  cursor: pointer;
+}
+
+/* line 261, resets-header.scss */
+#themenu:hover {
+  height: 24.6em;
+  -webkit-transition: height 1200ms ease-out;
+  -moz-transition: height 1200ms ease-out;
+  -o-transition: height 1200ms ease-out;
+  transition: height 1200ms ease-out;
+}
+
+/* line 266, resets-header.scss */
+p:hover + #themenu, img:hover + p + #themenu {
+  height: 24.6em;
+  -webkit-transition: height 1200ms ease-out;
+  -moz-transition: height 1200ms ease-out;
+  -o-transition: height 1200ms ease-out;
+  transition: height 1200ms ease-out;
+}
+
+/* line 272, resets-header.scss */
+button {
+  width: 20em;
+  height: 2em;
+  background-color: #6e7b8d;
+  color: #f8f9fa;
+}
+
+/* line 279, resets-header.scss */
+footer {
+  width: 100%;
+  position: static;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  clear: both;
+  height: 16em;
+  background-color: #ffffff;
+}
+/* line 290, resets-header.scss */
+footer div {
+  float: left;
+  width: 32em;
+  display: block;
+  height: 16em;
+}
+/* line 296, resets-header.scss */
+footer div ul {
+  list-style: none;
+  width: 30em;
+  height: 8.5em;
+  margin-left: 1em;
+  background-color: #129fcf;
+}
+/* line 303, resets-header.scss */
+footer div ul li {
+  float: left;
+  width: 10em;
+  height: 2em;
+  text-align: center;
+  background-color: #129fcf;
+}
+/* line 310, resets-header.scss */
+footer div ul li a {
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 318, resets-header.scss */
+footer div ul li a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 324, resets-header.scss */
+footer div ul li:hover {
+  background-color: #6e7b8d;
+  color: #ffffff;
+}
+/* line 331, resets-header.scss */
+footer .menu {
+  width: 32em;
+  height: 14em;
+  padding-top: 2em;
+  background-color: #129fcf;
+}
+/* line 337, resets-header.scss */
+footer .menu div:last-of-type {
+  height: 3.5em;
+  text-align: center;
+  padding-top: 1em;
+  background-color: #129fcf;
+}
+/* line 343, resets-header.scss */
+footer .menu div:last-of-type img {
+  height: 3em;
+  margin: 0 0.5em;
+}
+/* line 348, resets-header.scss */
+footer .menu div:last-of-type img li {
+  color: #ffffff;
+}
+/* line 352, resets-header.scss */
+footer .menu div:last-of-type img a {
+  height: 100%;
+  width: 100%;
+  display: block;
+  color: #ffffff;
+}
+/* line 364, resets-header.scss */
+footer .logo {
+  text-align: center;
+}
+/* line 367, resets-header.scss */
+footer .logo img {
+  height: 4em;
+  margin-top: 5em;
+}
+
+/* line 28, indexpage.scss */
+.container {
+  background-color: #ffffff;
+}
+
+/* line 32, indexpage.scss */
+.offset {
+  display: block;
+  position: relative;
+  top: -6.7em;
+  visibility: hidden;
+}
+
+/* line 39, indexpage.scss */
+#scenicadventure-info-top.offset {
+  top: -27em;
+}
+
+/* line 43, indexpage.scss */
+.container-video, .container-scrolling-bg, .container-fixed-bg {
+  height: 40em;
+  text-align: center;
+  padding-top: 1px;
+}
+/* line 48, indexpage.scss */
+.container-video p, .container-scrolling-bg p, .container-fixed-bg p {
+  color: #129fcf;
+  width: 20em;
+  margin: 2em auto;
+  margin-top: 2em;
+  height: auto;
+}
+/* line 56, indexpage.scss */
+.container-video button, .container-scrolling-bg button, .container-fixed-bg button {
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* line 62, indexpage.scss */
+.container-fixed-bg, .container-video {
+  max-width: 64em;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 71, indexpage.scss */
+.fixed-bg-1 {
+  background-image: url("../images/background-image-1.jpg");
+}
+
+/* line 75, indexpage.scss */
+.fixed-bg-2 {
+  background-image: url("../images/background-image-2.jpg");
+}
+
+/* line 79, indexpage.scss */
+.fixed-bg-3 {
+  background-image: url("../images/background-image-3.jpg");
+}
+
+/* line 83, indexpage.scss */
+.fixed-bg-4 {
+  background-image: url("../images/background-image-4.jpg");
+}
+
+/* line 87, indexpage.scss */
+.fixed-bg-5 {
+  background-image: url("../images/background-image-5.jpg");
+}
+
+/* line 92, indexpage.scss */
+.container-video {
+  background-image: url("../images/background-image-0.jpg");
+  height: 30em;
+}
+/* line 96, indexpage.scss */
+.container-video h1 {
+  display: block;
+  color: #129fcf;
+  width: auto;
+  margin: 2.5em auto 0 auto;
+  font-size: 3em;
+  font-weight: 900;
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+/* line 107, indexpage.scss */
+.container-video img {
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+
+/* line 113, indexpage.scss */
+.container-scrolling-bg, about-us {
+  background-color: white;
+  height: 15em;
+}
+/* line 117, indexpage.scss */
+.container-scrolling-bg h1, about-us h1 {
+  float: left;
+  left: 0;
+  margin-top: -1em;
+  width: auto;
+  text-align: left;
+  color: white;
+  margin-left: 0.2em;
+}
+
+/* line 128, indexpage.scss */
+.scrolling-bg-1 {
+  height: 16em;
+  padding-bottom: 2em;
+}
+/* line 133, indexpage.scss */
+.scrolling-bg-1 h1 {
+  color: white;
+  width: 10em;
+  margin-left: 11em;
+  margin-top: 1em;
+  text-align: center;
+  background-color: #129fcf;
+}
+/* line 143, indexpage.scss */
+.scrolling-bg-1 p {
+  margin-top: 5em;
+  color: #129fcf;
+}
+
+/* line 149, indexpage.scss */
+.scrolling-bg-3 {
+  height: 100%;
+}
+/* line 152, indexpage.scss */
+.scrolling-bg-3 h1 {
+  margin-top: -1.6em;
+}
+
+/* line 157, indexpage.scss */
+.standard-flight-options {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 1em;
+  display: block;
+  position: relative;
+}
+/* line 164, indexpage.scss */
+.standard-flight-options div {
+  float: left;
+  width: 15.9em;
+  border-right: 2px solid white;
+}
+/* line 170, indexpage.scss */
+.standard-flight-options div:first-of-type {
+  padding-left: 0.5em;
+  width: 15.4em;
+}
+/* line 175, indexpage.scss */
+.standard-flight-options div:last-of-type {
+  border: none;
+  padding-right: 0.5em;
+  width: 15.4em;
+}
+/* line 181, indexpage.scss */
+.standard-flight-options img {
+  width: 10em;
+  margin-bottom: 0.5em;
+  padding-top: 1em;
+}
+/* line 187, indexpage.scss */
+.standard-flight-options h2 {
+  height: 2em;
+  color: #6e7b8d;
+  margin-bottom: 0.5em;
+}
+/* line 193, indexpage.scss */
+.standard-flight-options p {
+  width: auto;
+  padding: 0.5em 0.5em;
+  margin: 0 auto;
+  color: #129fcf;
+  margin-bottom: 0.5em;
+}
+
+/* line 205, indexpage.scss */
+.the-crew, .about-us, .gallery, .contact-us {
+  background-color: white;
+}
+/* line 208, indexpage.scss */
+.the-crew h1, .about-us h1, .gallery h1, .contact-us h1 {
+  color: #6e7b8d;
+  padding-left: 0.2em;
+  background-color: #ffffff;
+  text-align: center;
+}
+/* line 215, indexpage.scss */
+.the-crew p, .about-us p, .gallery p, .contact-us p {
+  color: #129fcf;
+  width: 20em;
+  margin: 0 auto;
+}
+
+/* line 222, indexpage.scss */
+.the-crew {
+  background-color: #129fcf;
+  padding-bottom: 1.2em;
+}
+/* line 226, indexpage.scss */
+.the-crew h1 {
+  margin-top: -1em;
+  background-color: #129fcf;
+  color: #ffffff;
+}
+
+/* line 233, indexpage.scss */
+.about-us {
+  height: 20em;
+}
+/* line 236, indexpage.scss */
+.about-us h1 {
+  padding-left: 0.2em;
+}
+/* line 240, indexpage.scss */
+.about-us p {
+  color: #129fcf;
+  float: left;
+  width: 30em;
+  margin: 3em 1em 0em 2em;
+  text-align: justify;
+}
+/* line 248, indexpage.scss */
+.about-us img {
+  margin-top: 1em;
+  margin-right: 10em;
+  float: right;
+}
+
+/* line 257, indexpage.scss */
+.gallery .large-display {
+  margin: 0;
+  padding: 0;
+}
+/* line 262, indexpage.scss */
+.gallery .large-display img {
+  width: 100%;
+  border: none;
+  display: block;
+}
+/* line 269, indexpage.scss */
+.gallery .thumbnails {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+/* line 274, indexpage.scss */
+.gallery .thumbnails img {
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+/* line 279, indexpage.scss */
+.gallery .thumbnails img:first-of-type {
+  padding-left: 1em;
+}
+/* line 283, indexpage.scss */
+.gallery .thumbnails img:last-of-type {
+  padding-right: 1em;
+}
+/* line 287, indexpage.scss */
+.gallery .thumbnails button {
+  position: absolute;
+  width: 2em;
+  margin-top: 0.6em;
+  background-color: #6e7b8d;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  opacity: 0;
+}
+/* line 303, indexpage.scss */
+.gallery .thumbnails button:hover {
+  opacity: 1;
+}
+/* line 307, indexpage.scss */
+.gallery .thumbnails button:first-of-type {
+  margin-left: -2em;
+}
+
+/* line 314, indexpage.scss */
+.thumbnails:hover button {
+  opacity: 0.8;
+}
+
+/* line 318, indexpage.scss */
+.contact-us {
+  background-image: url(../images/staticmap.png);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35em;
+}
+
+/* line 326, indexpage.scss */
+.contact-us {
+  height: 38em;
+  margin-top: 1em;
+}
+/* line 331, indexpage.scss */
+.contact-us h2 {
+  color: #ffffff;
+}
+/* line 335, indexpage.scss */
+.contact-us form {
+  width: 18.3em;
+  background-color: #129fcf;
+  height: 33.5em;
+  margin-top: 1em;
+  margin-left: 2em;
+  color: #ffffff;
+  opacity: 0.9;
+  padding: 0.5em;
+  font-size: 1em;
+}
+/* line 346, indexpage.scss */
+.contact-us form ul {
+  list-style: none;
+  font-size: 1em;
+  color: #ffffff;
+}
+/* line 351, indexpage.scss */
+.contact-us form ul li {
+  color: #ffffff;
+}
+/* line 356, indexpage.scss */
+.contact-us form label {
+  float: left;
+  clear: both;
+  margin-top: 0.5em;
+  color: #ffffff;
+}
+/* line 362, indexpage.scss */
+.contact-us form input {
+  float: left;
+  clear: both;
+  width: 18em;
+  height: 2em;
+  display: block;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+/* line 373, indexpage.scss */
+.contact-us form textarea {
+  color: black;
+  width: 18em;
+  padding: 0;
+  margin: 0;
+}
+/* line 381, indexpage.scss */
+.contact-us form button {
+  float: left;
+  clear: both;
+  margin: 0 auto;
+  width: 4em;
+}
+
+/* line 396, indexpage.scss */
+.the-crew .buttons {
+  height: 22em;
+  width: 22em;
+  z-index: 500;
+  position: absolute;
+  background-color: #129fcf;
+  margin-top: 3em;
+}
+/* line 404, indexpage.scss */
+.the-crew .buttons p {
+  background-image: url(../images/arrows.png);
+  background-repeat: no-repeat;
+  height: 3.9em;
+  width: 4em;
+  position: absolute;
+  z-index: 200;
+  left: 12em;
+  margin-top: 8em;
+  opacity: 1;
+}
+/* line 416, indexpage.scss */
+.the-crew .buttons p.hide {
+  opacity: 0;
+}
+
+/* line 422, indexpage.scss */
+.buttons:last-of-type {
+  margin-left: 42em;
+  margin-top: -20.4em;
+  width: 22em;
+  background-color: #ffffff;
+  position: relative;
+  background-color: #129fcf;
+}
+/* line 430, indexpage.scss */
+.buttons:last-of-type p {
+  background-position: -4.5em;
+  left: 6em;
+  margin-top: -12.5em;
+}
+
+/* line 441, indexpage.scss */
+.active, .crew, .before, .after, .previousprofile {
+  width: 20em;
+  height: 20em;
+  text-align: center;
+  float: left;
+  margin: 0;
+  -webkit-transition: margin-left 2s ease-out;
+  -moz-transition: margin-left 2s ease-out;
+  -ms-transition: margin-left 2s ease-out;
+  -o-transition: margin-left 2s ease-out;
+  transition: margin-left 2s ease-out;
+  display: inline-block;
+}
+/* line 454, indexpage.scss */
+.active p, .crew p, .before p, .after p, .previousprofile p {
+  width: auto;
+  color: #ffffff;
+  position: relative;
+  width: 100%;
+  display: block;
+  clear: both;
+}
+/* line 463, indexpage.scss */
+.active h2, .crew h2, .before h2, .after h2, .previousprofile h2 {
+  color: #ffffff;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+/* line 471, indexpage.scss */
+.active img, .crew img, .before img, .after img, .previousprofile img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 477, indexpage.scss */
+.inactive {
+  display: none;
+}
+
+/* line 482, indexpage.scss */
+.move {
+  margin-left: -50%;
+  -webkit-transition: margin-left 2s ease-out;
+  -moz-transition: margin-left 2s ease-out;
+  -ms-transition: margin-left 2s ease-out;
+  -o-transition: margin-left 2s ease-out;
+  transition: margin-left 2s ease-out;
+}
+
+/* line 491, indexpage.scss */
+.previousprofile {
+  margin-left: -50%;
+  display: inline-block;
+  -webkit-transition: margin-left 2s ease-out;
+  -moz-transition: margin-left 2s ease-out;
+  -ms-transition: margin-left 2s ease-out;
+  -o-transition: margin-left 2s ease-out;
+  transition: margin-left 2s ease-out;
+}
+
+/* line 502, indexpage.scss */
+.profilebox {
+  width: 40em;
+  height: 20em;
+  margin-left: 22em;
+  margin-top: 1em;
+  background-color: #129fcf;
+}

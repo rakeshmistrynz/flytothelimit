@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/form.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="assets/fonts/stylesheet.css">
+</head>
+<body class="group">
+		<header class="group">
+			<nav class="group">
+				<div class="nav-item-container group themenu">
+					<img src="assets/images/threelines1.png" alt="menu">
+					<p>MENU</p>
+					<div id="themenu" class="drop-down">
+						<ul>
+							<li><a href="form.html">Book Now</a></li>
+							<li><a href="index.html#topgun-image">Top Gun Adventure</a></li>
+							<li><a href="index.html#scenicadventure-info-top">1-2 Hour Scenic</a></li>
+							<li><a href="index.html#scenicadventure-info-top">Mountain Sunset Trip</a></li>
+							<li><a href="index.html#scenicadventure-info-top">Lake Day Trip</a></li>
+							<li><a href="index.html#scenicadventure-info-top">Photograpy Trip</a></li>
+							<li><a href="index.html#charter-image">Charter</a></li>
+							<li><a href="index.html#gliding-image">Gliding Trip</a></li>
+							<li><a href="index.html#the-crew-top">Our Crew</a></li>
+							<li><a href="index.html#about-us-top">About Us</a></li>
+							<li><a href="index.html#the-gallery-top">Gallery</a></li>
+							<li><a href="index.html#contact-top">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+					
+			<div class="nav-item-container logo">
+				<a href="/">
+					<img src="assets/images/logo.png" alt="logo">
+				</a>
+			</div>
+
+			<div class="nav-item-container group booknow">
+				<form id="submitbutton" action="success.html">
+				</form>
+				<ul>
+					<li><a href="index.html#about-us-top">About Us&nbsp;/</a></li>
+					<li><a href="index.html#the-crew-top">&nbsp;Our Crew&nbsp;/</a></li>
+					<li><a href="index.html#scenicadventure-info-top">&nbsp;Flights</a></li>
+				</ul>
+				<button type="submit" form="submitbutton" disabled="disabled">SUBMIT</button>
+				<p><a href="tel:08001234567">&#9742;Phone 0800 FTTL</a>
+					<a href="mailto:fttl@fttl.com">&#9993; Email: fttl@fttl.com</a>
+				</p>
+			</div>
+			</nav>
+		<h1>BOOKING FORM</h1>
+		</header>
+	<form id="booking">
+	<div>
+		<fieldset name="customer-details" class="group">
+			<legend>CUSTOMER DETAILS</legend>
+			<div class="group titles radio-buttons">
+				<input type="radio" name="title" id="mr" checked><label for="mr">Mr</label>
+				<input type="radio" name="title" id="mrs"><label for="mrs">Mrs</label>
+				<input type="radio" name="title" id="ms"><label for="ms">Miss/Ms</label>
+				<input type="radio" name="title" id="dr"><label for="dr">Dr</label>
+			</div>
+			<div class="contact-details group">
+				<label for="fullname">Full name</label><input type="text" name="fullname" id="fullname" placeholder="John Smith"><span></span>
+				<label for="phonenumber">Contact phone number</label><input type="text" name="phonenumber" id="phonenumber" placeholder="eg 426 0908"><span></span>
+				<label for="email">Email</label><input type="text" name="email" id="email" placeholder="eg john@smith.com"><span></span>
+			</div>	
+		</fieldset>
+	</div>	
+
+	<div>
+		<fieldset class="trips-drop-down">
+			<legend>TRIPS</legend>
+			<div id="thetripsmenu">
+				<input type="text" name="the-trips" id="the-trips" value="Top Gun"><img src="assets/images/arrow.png" alt="down-arrow">
+				<ul>
+					<li>Top Gun</li>
+					<li>1-2 Hour Scenic</li>
+					<li>Mountain Sunset Trip</li>
+					<li>Lake Day Trip</li>
+					<li>Photopgraphy Trip</li>
+					<li>Gliding Trip</li>
+					<li>Charter</li>
+				</ul>
+			</div>
+		</fieldset>
+	</div>
+
+	<div>	
+		<fieldset class="group topgun">
+			<legend>TOP GUN ADVENTURE</legend>
+			<p>Please note:<br>•&nbsp;Only 1 passenger per Top Gun Trip<br>•&nbsp;We will contact you to confirm the booking and to discuss any special requirements</p>
+			<label for="topgun-date">Which day would you like to fly?</label><input type="text" name="date" id="topgun-date"><span></span>
+			<label for="topgun-time">What time would you like to takeoff?</label><input type="text" name="time" id="topgun-time"><span></span>
+			<div class="group radio-buttons list">
+			<p>How long would you like to go for?</p>
+			<input type="radio" name="duration-topgun-trip" id="1-hour-topgun-trip"><label for="1-hour-topgun-trip">1 Hour ($500 NZD)</label>
+			<input type="radio" name="duration-topgun-trip" id="2-hour-topgun-trip"><label for="2-hour-topgun-trip">2 Hours ($1000 NZD)</label>
+			</div>
+			<button type="submit" form="submitbutton"  disabled="disabled">SUBMIT</button>
+		</fieldset>
+	</div>
+
+
+	<div>
+		<fieldset class="group">
+			<legend>1-2 HOUR SCENIC TRIP</legend>
+			<p>Please note:<br>•&nbsp;The maximum number of people for per trip is 6 passengers<br>•&nbsp;We will contact you to confirm the booking and to discuss any special requirements</p>
+			<label for="scenic-trip-passenger">How many passengers?</label><input type="text" name="passenger"  id="scenic-trip-passenger" data-number="6" maxlength="1"><span></span>
+			<label for="scenic-trip-date">What day would you like to fly?</label><input type="text" name="date" id="scenic-trip-date"><span></span>
+			<label for="scenic-trip-time">What time would you like to fly?</label><input type="text" name="time" id="scenic-trip-time"><span></span>
+			<div class="radio-buttons list">
+				<p>Please pick an aircraft for your Trip</p>
+				<input type="radio" name="aircraft-option" id="scenic-trip-aircraft-option-cessna"><label for="scenic-trip-aircraft-option-cessna">Cessna price: $350/hour per passenger</label>
+				<input type="radio" name="aircraft-option" id="scenic-trip-aircraft-option-helicopter"><label for="scenic-trip-aircraft-option-helicopter">Helicopter price: $450/hour per passenger</label>
+			</div>
+			<div class="group radio-buttons list">
+			<p>Please select a Trip</p>
+			<input type="radio" name="scenic-trip-duration" id="scenic-trip-duration-1hr"><label for="scenic-trip-duration-1hr">1 Hour Trip</label>
+			<input type="radio" name="scenic-trip-duration" id="scenic-trip-duration-2hr"><label for="scenic-trip-duration-2hr">2 Hour Trip</label>
+			</div>
+		<button type="submit" form="submitbutton"  disabled="disabled">SUBMIT</button>	
+		</fieldset>
+	</div>
+
+	<div>
+		<fieldset class="group">
+			<legend>MOUNTAIN SUNSET TRIP</legend>
+			<p>Please note:<br>•&nbsp;The maximum number of passengers per trip is 6 people<br>•&nbsp;We will contact you to confirm the booking and to discuss any special requirements</p>
+			<label for="mountain-trip-passenger">How many passengers?</label><input type="text" name="passenger"  id="mountain-trip-passenger" data-number="6" maxlength="1"><span></span>
+			<label for="mountain-trip-date">What day would you like to fly?</label><input type="text" name="date" id="mountain-trip-date"><span></span>
+			<label for="mountain-trip-time">What time would you like to fly?</label><input type="text" name="time" id="mountain-trip-time"><span></span>
+			<div class="radio-buttons list">
+			<p>Please pick an aircraft for your trip</p>
+			<input type="radio" name="mountain-trip-aircraft-option" id="mountain-trip-aircraft-option-cessna"><label for="mountain-trip-aircraft-option-cessna">Cessna price:$350/hr per passenger</label>
+			<input type="radio" name="mountain-trip-aircraft-option" id="mountain-trip-aircraft-option-helicopter"><label for="mountain-trip-aircraft-option-helicopter">Helicopter price:$450/hr per passenger</label>
+			</div>
+		<button type="submit" form="submitbutton"  disabled="disabled">SUBMIT</button>	
+		</fieldset>
+	</div>
+	
+	<div>
+		<fieldset class="group">
+			<legend>LAKE DAY TRIP</legend>
+			<p>Please note:<br>•&nbsp;The maximum number of passengers per trip is 7 people<br>•&nbsp;We will contact you to confirm the booking and to discuss any special requirements</p>
+			<label for="lake-day-trip-passenger">How many passengers?</label><input type="text" name="passenger"  id="lake-day-trip-passenger" data-number="7" maxlength="1"><span></span>
+			<label for="lake-day-trip-date">What day would you like to fly?</label><input type="text" name="date" id="lake-day-trip-date"><span></span>
+			<button type="submit" form="submitbutton"  disabled="disabled">SUBMIT</button>	
+		</fieldset>
+	</div>
+
+	<div>
+		<fieldset class="group">
+			<legend>PHOTOGRAPHY TRIP</legend>
+			<p>Please note:<br>•&nbsp;The maximum number of passengers per trip is 6 people<br>•&nbsp;We will contact you to confirm the booking and to discuss any special requirements</p>
+			<label for="photo-trip-passenger">How many passengers?</label><input type="text" name="passenger"  id="photo-trip-passenger" data-number="6" maxlength="1"><span></span>
+			<label for="photo-trip-date">What day would you like to fly?</label><input type="text" name="date" id="photo-trip-date"><span></span>
+			<label for="photo-trip-time">What time would you like to fly?</label><input type="text" name="time" id="photo-trip-time"><span></span>
+			<div class="radio-buttons list">
+					<p>Please choose your aircraft</p>
+					<input type="radio" name="photo-trip-aircraft-option" id="photo-trip-aircraft-option-cessna"><label for="photo-trip-aircraft-option-cessna">Cessna price: $350/hour per passenger</label>
+					<input type="radio" name="photo-trip-aircraft-option" id="photo-trip-aircraft-option-helicopter"><label for="photo-trip-aircraft-option-helicopter">Helicopter price:$450/hour per passenger</label>
+			</div>
+			<label for="photo-trip-duration">How many hours would you like to fly with us?</label><input type="text" name="duration" id="photo-trip-duration" maxlength="2"><span></span>
+		<button type="submit" form="submitbutton"  disabled="disabled">SUBMIT</button>
+		</fieldset>
+	</div>
+
+	<div>
+		<fieldset class="group">
+			<legend>GLIDING TRIP</legend>
+				<p>Please note:<br>•&nbsp;Only 1 passenger per gliding trip<br>•&nbsp;We will contact you to confirm the booking and to discuss any special requirements</p>
+				<label for="gliding-trip-date">What day would you like to fly?</label><input type="text" name="date" id="gliding-trip-date"><span></span>
+				<label for="gliding-trip-time">What time would you like to fly?</label><input type="text" name="time" id="gliding-trip-time"><span></span>
+		<button type="submit" form="submitbutton"  disabled="disabled">SUBMIT</button>		
+		</fieldset>
+	</div>
+
+	<div>
+		<fieldset class="group charter-trip">
+			<legend>CHARTER</legend>
+			<p>Please note:<br>After you filled in your details below, we will contact you to discuss your charter trip including any special requirements. We we also provide you with an estimate for the charter prior to confirming the final booking.</p>
+			<div class="radio-buttons list">
+				<p>Please select an aircraft</p>
+				<input type="radio" name="charter-trip-aircraft-option" id="charter-trip-aircraft-option-cessna"><label for="charter-trip-aircraft-option-cessna">Cessna</label>
+				<input type="radio" name="charter-trip-aircraft-option" id="charter-trip-aircraft-option-helicopter"><label for="charter-trip-aircraft-option-helicopter">Helicopter</label>
+				<input type="radio" name="charter-trip-aircraft-option" id="charter-trip-aircraft-option-amphibian"><label for="charter-trip-aircraft-option-amphibian">Cessna Amphibian</label>
+			</div>	
+			<p>Please provide an indication of the dates and number of passengers</p>
+			<label for="charter-trip-passenger">How many passengers?</label><input type="text" name="charter-trip-passenger" id="charter-trip-passenger" maxlength="2"><span></span>
+			<label for="charter-trip-date-start">Depature Date</label><input type="text" name="date" id="charter-trip-date-start"><span></span>
+			<label for="charter-trip-date-finish">Return Date</label><input type="text" name="date" id="charter-trip-date-finish"><span></span>
+			<label for="charter-trip-destination">Where would you like to go?</label><textarea name="destination-charter-trip" id="charter-trip-destination" cols="30" rows="10" maxlength="500"></textarea><span></span>
+		<button type="submit" form="submitbutton"  disabled="disabled">SUBMIT</button>	
+		</fieldset>
+	</div>
+	</form>
+<div id="offset"><h1>10% DISCOUNT ON ALL STANDARD FLIGHTS!</h1></div>
+<footer class="group">
+	<div class="footer-container group logo">
+		<a href="../public_html/index.html">
+			<img src="assets/images/logo.png" alt="logo">
+		</a>
+	</div>
+	<div class="footer-container group menu">
+		<ul>
+			<li><a href="form.html">Book Now</a></li>
+			<li><a href="#topgun-image">Top Gun Adventure</a></li>
+			<li><a href="#scenicadventure-info-top">1-2 Hour Scenic</a></li>
+			<li><a href="#scenicadventure-info-top">Mountain Sunset Trip</a></li>
+			<li><a href="#scenicadventure-info-top">Lake Day Trip</a></li>
+			<li><a href="#scenicadventure-info-top">Photograpy Trip</a></li>
+			<li><a href="#charter-image">Charter</a></li>
+			<li><a href="#gliding-image">Gliding Trip</a></li>
+			<li><a href="#the-crew-top">Our Crew</a></li>
+			<li><a href="#about-us-top">About Us</a></li>
+			<li><a href="#the-gallery-top">Gallery</a></li>
+			<li><a href="#contact-top">Contact Us</a></li>
+		</ul>
+		<div class="group">
+		<a href="http://www.facebook.com"><img src="assets/images/facebook.png" alt="facebook"></a>
+		<a href="http://www.twitter.com"><img src="assets/images/twitter.png" alt="twitter"></a>
+		<a href="http://www.instagram.com"><img src="assets/images/instagram.png" alt="instagram"></a>
+		</div>
+	</div>
+</footer>
+<script src="assets/js/form.js">
+</script>
+<noscript>Your browser does not support JavaScript!</noscript>
+</body>
+</html>

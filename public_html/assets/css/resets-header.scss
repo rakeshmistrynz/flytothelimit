@@ -1,0 +1,378 @@
+@import "compass/css3";
+
+//**********************************************************//
+	//variables
+//**********************************************************//
+
+$legend-bg-color: #6E7B8D;
+$metal:#6E7B8D;
+$legend-text-color: #FFFFFF;
+$legend-text-weight: 500;
+$alignmentmargin: 11.6em;
+$labelwidth: 15.5em;
+$metal:#6E7B8D;
+$blue:#129FCF;
+$header-color:#FFFFFF;
+$header-color-text:#6E7B8D;
+$bg-color-scrolling: #129FCF;
+$button-color:#6E7B8D;
+$text-color: #f8f9fa;
+
+//**********************************************************//
+	//mixin
+//**********************************************************//
+
+@mixin font-smoothing($val: antialiased) {
+  -webkit-font-smoothing: $val;
+  -moz-font-smoothing: $val;
+  -ms-font-smoothing: $val;
+  -o-font-smoothing: $val;
+}
+
+//**********************************************************//
+	//Styles
+//**********************************************************//
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'proxima_nova_rgbold_italic', Arial, sans-serif;
+	color:$metal;
+	@include font-smoothing;
+	// outline: 1px orange dotted;
+}
+
+.div{
+	display: inline-block;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.group:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+//**********************************************************//
+	//The Body
+//**********************************************************//
+html{
+	background: url(../images/pagebackgroundimage.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+
+body{
+	width: 64em;
+	display: block;
+	margin: 4.5em auto;
+	background-color: #ffffff;
+	height: 100%;
+}
+
+//**********************************************************//
+	//The Header
+//**********************************************************//
+
+header{
+	position: fixed;
+	top:0;
+	width: 64em;
+	display: block;
+	clear: both;
+	background-color: $header-color;
+	height: 6em;
+	z-index: 1000;
+	font-family: "ProximaNova-Boldit", Arial, sans-serif;
+
+	nav{
+		width: 100%;
+		height: 4.5em;
+	}
+
+	p{
+		position: absolute;
+		width: 5em;
+		margin-top: 4.5em;
+		text-align: center;
+	}
+
+	.nav-item-container{
+		float:left;
+
+		.menu{
+		width: 10em;
+			p{
+			width: 5em;
+			float: left;
+			z-index: -100;
+			}
+		}
+	}
+
+	.logo{
+		height: auto;
+		width: auto;
+		margin-left: 10em;
+
+		img{
+			height: 4em;
+			position: absolute;
+			left: 5em;
+			top: 1em;
+		}		
+	}
+
+	.booknow{
+		width: 35em;
+		float: right;
+		margin-top: 0.5em;
+		height: 5em;
+
+		ul{
+			list-style: none;
+			position: absolute;
+			top: 2em;
+			margin-left: 10em;
+			float: left;
+			display: inline-block;
+			width: 14em;
+
+			li{
+				float: left;
+				}
+		}
+
+		button{
+			
+			width: 10em;
+			background-color: $button-color;
+			color: $text-color;
+			float: right;
+			margin: 1em 1em 0 0;
+
+		}
+		p{
+			font-size: 1.5em;
+			float: left;
+			width: 22.7em;
+			margin-top: 2em;
+			text-align: right;
+			display: inline-block;
+		}
+
+	}
+
+}
+
+button[type="submit"]{
+	width: 10em;
+	height: 2em;
+	background-color: $button-color;
+	color: $text-color;
+	display: block;
+	clear: both;
+}
+
+.menu{
+	width: 5em;
+	height: 4em;
+
+	p{
+		width: 5em;
+		float: left;
+		display: inline-block;
+	}
+}
+
+a:link{
+	text-decoration: none;
+	color: $metal;
+}
+
+.booknow a:hover{
+	background-color: $metal;
+	color: $text-color;
+}
+
+//**********************************************************//
+	//The Menu
+//**********************************************************//
+
+
+.themenu{
+	width: 5em;
+	height: 4.5em;
+
+	img{
+		width: 5em;
+		height: 4.5em;
+		float: left;
+		display: inline-block;
+	}
+}
+
+#themenu{
+	width:13em;
+	height:0;
+	overflow: hidden;
+	@include single-transition(height, 1200ms, ease-out);
+	position: absolute;
+	top: 6em;
+		
+	ul{
+		display: block;
+		float: left;
+		background-color: white;
+
+		a{
+			display: block;
+		}
+
+		li{
+			float: left;
+			list-style: none;
+			width: 100%;
+			height: 2em;
+			display: block;
+			padding-left: 0.5em;
+			line-height: 2em;
+			color: $metal;
+			border-bottom: 1px solid $metal;
+		}
+
+		li:hover, a:hover{
+			background-color: $metal;
+			color: $text-color;
+			cursor: pointer;
+		}
+	}
+}
+
+#themenu:hover{
+	height: 24.6em;
+	@include single-transition(height, 1200ms, ease-out);
+}
+
+p:hover+#themenu, img:hover+p+#themenu {
+	height: 24.6em;
+	@include single-transition(height, 1200ms, ease-out);
+}
+
+
+button{
+	width: 20em;
+	height: 2em;
+	background-color: $button-color;
+	color: $text-color;
+}
+
+footer{
+	width: 100%;
+	position: static;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: block;
+	clear: both;
+	height: 16em;
+	background-color: #ffffff;
+	
+	div{
+		float: left;
+		width: 32em;
+		display: block;
+		height: 16em;
+
+		ul{
+		list-style: none;
+		width: 30em;
+		height: 8.5em;
+		margin-left: 1em;
+		background-color: $blue;
+
+		li{
+			float: left;
+			width: 10em;
+			height: 2em;
+			text-align: center;
+			background-color: $blue;
+
+			a{
+				color: #ffffff;
+				display: block;
+				width: 100%;
+				height: 100%;
+
+			}
+
+			a:link{
+				text-decoration: none;
+				color:#ffffff;
+			}
+		}
+
+			li:hover{
+			background-color: $metal;
+			color: #ffffff;
+			}
+		}		
+	}
+
+	.menu{
+		width: 32em;
+		height: 14em;
+		padding-top: 2em;
+		background-color: $blue;
+
+		div:last-of-type{
+			height: 3.5em;
+			text-align: center;
+			padding-top: 1em;
+			background-color: $blue;
+
+			img{
+
+				height: 3em;
+				margin: 0 0.5em;
+
+				li{
+					color:#ffffff;
+				}
+
+				a{
+				height: 100%;
+				width: 100%;
+				display: block;
+				color: #ffffff;
+				}
+
+			}
+
+		}
+	}
+
+	.logo{
+		text-align: center;
+
+		img{
+			height: 4em;
+			margin-top: 5em;
+		}
+	}
+
+}
+
+	
+
+
+
